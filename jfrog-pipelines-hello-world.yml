@@ -76,6 +76,7 @@ pipelines:
           inputResources:
             # Sets up step to be triggered when myPropertyBag is updated
             - name: myPropertyBag
+            - password: Idanpassword
         execution:
           onExecute:
             # Retrieves the commitSha from input resource
